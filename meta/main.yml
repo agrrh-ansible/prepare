@@ -1,0 +1,20 @@
+---
+
+galaxy_info:
+  author: Kirill Kovalev
+  description: A role to prepare host to work with Ansible.
+
+  license: WTFPL
+
+  min_ansible_version: 2.4
+
+  github_branch: master
+
+  platforms:
+  - name: Ubuntu
+    versions:
+    - xenial
+
+  galaxy_tags: []
+
+dependencies: []
