@@ -11,3 +11,5 @@
 - name: ensure python and required modules are installed
   raw: if test ! -f {{ prepare_file }}; then apt-get update -qq && apt-get install python python-apt -qqy && touch {{ prepare_file }}; else true; fi
   changed_when: false
+
+- setup:
